@@ -1,0 +1,54 @@
+header {
+  background-color: darkgray;
+  color: beige;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: maroon;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+/*
+  Learned the flex feature. Made image and text be in the same div and added the following classes to make them flex hang out with each other while looking decent.
+*/
+.container {
+  display: flex;
+  justify-content: left;
+}
+
+.picture {
+  flex-basis: 20%;
+  margin: 10px;
+}
+
+.text {
+  padding-left: 30px
+}
+
+/*
+  Changing the colors of what the links displayed depending on their interaction level.
+*/
+a:link { color: purple}
+a:visited { color: maroon}
+a:hover { color: violet}
+a:active { color: cyan}
+
+footer {
+  background: darkgray;
+  color: beige;
+  text-align: center;
+  font-size: 12px;
+  font-family: arial
+}
