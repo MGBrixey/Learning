@@ -31,6 +31,9 @@ p {
 .picture {
   flex-basis: 20%;
   margin: 10px;
+}
+
+.image-size {
   width: 230px;
   height: 400px;
 }
